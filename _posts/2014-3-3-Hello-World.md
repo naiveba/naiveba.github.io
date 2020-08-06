@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Welcome to my Portfolio!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+I would like to share some my projects which I have been doing a lately, I hope you will enjoy it.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
