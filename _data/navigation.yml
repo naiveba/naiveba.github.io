@@ -10,8 +10,8 @@
 #- title: My Projects
  # url: 
 
-- title: 📄Resume
-  url: #
+# - title: 📄Resume
+#   url: #
   
 #- title: GITHUB
 #  url: https://github.com/parthw1
@@ -19,5 +19,5 @@
 #- title: Contact
 #  url: /contact/
   
-#- title: Search
-#  url: /search/
+- title: Search
+ url: /search/
