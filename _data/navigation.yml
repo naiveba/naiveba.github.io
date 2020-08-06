@@ -1,0 +1,23 @@
+
+# Site navigation links
+
+- title: 🏠Home
+  url: /index.html
+
+- title: 📝Blog
+  url: /blog/
+
+#- title: My Projects
+ # url: 
+
+- title: 📄Resume
+  url: #
+  
+#- title: GITHUB
+#  url: https://github.com/parthw1
+
+#- title: Contact
+#  url: /contact/
+  
+#- title: Search
+#  url: /search/
