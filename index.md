@@ -1,8 +1,11 @@
+layout: page
+title: Latest Posts
+excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+search_omit: true
 ---
-layout: homepage
-excerpt: "About me."
----
-I am Nitesh, prefinal year undergraduate student pursuing B.Tech in Computer Science and Engineering at<a href="http://www.iiitn.ac.in" target="_blank"> Indian Institute of Information Technology, Nagpur. </a> I am an avid open source developer and a passionate comptetitve programmer. I am mainly interested in full stack development.
 
-As a software Developer, I’m inspired by building software stack and have been influenced by algorithms in a big way, especially their applications in solving real-world problems.
-
+<ul class="post-list">
+{% for post in site.posts limit:10 %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
